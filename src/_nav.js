@@ -3,7 +3,7 @@ export default {
     {
       name: 'Página Inicial',
       url: '/dashboard',
-      icon: 'icon-speedometer',
+      icon: 'icon-home',
       badge: {
         variant: 'info',
         text: 'NEW',
@@ -12,7 +12,7 @@ export default {
     {
       name: 'Cadastro',
       url: '/cadastro',
-      icon: 'icon-star',
+      icon: 'icon-user',
       children: [
         {
           name: 'Login',
@@ -43,8 +43,8 @@ export default {
     },	
     {
       name: 'Contatos de Emergência',
-      url: '/theme/contato',
-      icon: 'icon-drop',
+      url: '/contato',
+      icon: 'icon-star',
     },
    {
       name: 'Histórico',
@@ -66,7 +66,7 @@ export default {
     {
       name: 'Agenda',
       url: '/agenda',
-      icon: 'icon-star',
+      icon: 'icon-calendar',
     },	
     {
       name: 'Exames',
@@ -76,12 +76,12 @@ export default {
     {
       name: 'Prontuário',
       url: '/prontuario',
-      icon: 'icon-star',
+      icon: 'icon-folder',
     },		
     {
       name: 'Mapa de clínicas',
       url: '/mapa',
-      icon: 'icon-star',
+      icon: 'icon-map',
     },		
   ],
 };

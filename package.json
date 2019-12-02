@@ -50,9 +50,6 @@
   "bugs": {
     "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": [
     ">0.2%",
     "not dead",
@@ -66,9 +63,5 @@
       "!src/serviceWorker.js",
       "!src/polyfill.js"
     ]
-  },
-  "engines": {
-    "node": ">=8.10",
-    "npm": ">=6"
   }
 }
